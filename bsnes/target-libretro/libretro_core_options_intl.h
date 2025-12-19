@@ -27847,17 +27847,17 @@ struct retro_core_options_v2 options_pl = {
 /* RETRO_LANGUAGE_PT_BR */
 
 #define CATEGORY_VIDEO_LABEL_PT_BR "Vídeo"
-#define CATEGORY_VIDEO_INFO_0_PT_BR "Altera as configurações de saída de vídeo."
+#define CATEGORY_VIDEO_INFO_0_PT_BR "Altera as configurações da saída de vídeo."
 #define CATEGORY_AUDIO_LABEL_PT_BR "Áudio"
-#define CATEGORY_AUDIO_INFO_0_PT_BR "Altera as configurações de saída de áudio."
+#define CATEGORY_AUDIO_INFO_0_PT_BR "Altera as configurações da saída de áudio."
 #define CATEGORY_MODE7_LABEL_PT_BR "Mode 7 HD"
-#define CATEGORY_MODE7_INFO_0_PT_BR "Altera as configurações relativas à emulação gráfica do Mode 7."
+#define CATEGORY_MODE7_INFO_0_PT_BR "Altera as configurações da emulação gráfica do Mode 7."
 #define CATEGORY_HACK_LABEL_PT_BR "Hacks de emulação e otimizações"
 #define CATEGORY_HACK_INFO_0_PT_BR "Permite hacks de emulação, otimizações e correções."
 #define CATEGORY_OVERCLOCK_LABEL_PT_BR "Velocidade da CPU"
 #define CATEGORY_OVERCLOCK_INFO_0_PT_BR "Altera a velocidade do hardware emulado."
 #define CATEGORY_SGB_LABEL_PT_BR NULL
-#define CATEGORY_SGB_INFO_0_PT_BR "Altera as configurações relativas à emulação do Super Game Boy."
+#define CATEGORY_SGB_INFO_0_PT_BR "Altera as configurações da emulação do Super Game Boy."
 #define CATEGORY_LIGHTGUN_LABEL_PT_BR "Pistola de luz"
 #define CATEGORY_LIGHTGUN_INFO_0_PT_BR "Altera as configurações da pistola de luz (tela sensível ao toque)."
 #define BSNES_ASPECT_RATIO_LABEL_PT_BR "Proporção de tela"
