@@ -1871,7 +1871,7 @@ struct retro_core_options_v2 options_ast = {
 #define OPTION_VAL_NTSC_RGB_BE NULL
 #define BSNES_VIDEO_LUMINANCE_LABEL_BE "Рэгуляванне колеру - яркасць"
 #define BSNES_VIDEO_LUMINANCE_INFO_0_BE "Рэгуляваць яркасць"
-#define OPTION_VAL_0_O4_BE "0 %"
+#define OPTION_VAL_0_O4_BE NULL
 #define OPTION_VAL_10_BE "10 %"
 #define OPTION_VAL_20_BE "20 %"
 #define OPTION_VAL_30_BE "30 %"
@@ -27969,10 +27969,10 @@ struct retro_core_options_v2 options_pl = {
 #define OPTION_VAL_LOW_PT_BR "Baixa"
 #define OPTION_VAL_HIGH_PT_BR "Alta"
 #define BSNES_CPU_FASTMATH_LABEL_PT_BR "Acelerar matemática da CPU"
-#define BSNES_CPU_FASTMATH_INFO_0_PT_BR "Proporciona resultados de computação de imediato. A multiplicação e a divisão pela CPU leva tempo para ser completada em um SNES real. Os emuladores mais antigos não simulavam estes atrasos e, portanto, alguns hacks mais antigos de ROMs não esperam por operações matemáticas para completar e precisam deste hack."
+#define BSNES_CPU_FASTMATH_INFO_0_PT_BR "Fornece resultados de computação de imediato. As operações de multiplicação e divisão da CPU demoram para serem completadas em um SNES original. Os emuladores mais antigos não simulavam estes atrasos, então alguns hacks de ROMs não esperam pelas operações matemáticas e precisam deste hack."
 #define BSNES_CPU_OVERCLOCK_LABEL_PT_BR "Overclock (CPU)"
 #define BSNES_CPU_OVERCLOCK_LABEL_CAT_PT_BR NULL
-#define BSNES_CPU_OVERCLOCK_INFO_0_PT_BR "Faça o overclock ou o downclock da CPU. A definição deste valor acima de 100% pode reduzir os tempos de carregamento e remover a lentidão. Use com cautela, pois também pode causar o travamento de alguns jogos ou apresentar outros problemas."
+#define BSNES_CPU_OVERCLOCK_INFO_0_PT_BR "Aumenta ou diminui a velocidade da CPU. Definir o valor para acima de 100% pode reduzir o tempo de carregamento e acabar com a lentidão. Use com cautela, pois pode causar o travamento em alguns jogos ou apresentar outros problemas."
 #define OPTION_VAL_210_PT_BR NULL
 #define OPTION_VAL_220_PT_BR NULL
 #define OPTION_VAL_230_PT_BR NULL
@@ -27995,10 +27995,10 @@ struct retro_core_options_v2 options_pl = {
 #define OPTION_VAL_400_PT_BR NULL
 #define BSNES_CPU_SA1_OVERCLOCK_LABEL_PT_BR "Overclock (coprocessador SA-1)"
 #define BSNES_CPU_SA1_OVERCLOCK_LABEL_CAT_PT_BR "Coprocessador SA-1"
-#define BSNES_CPU_SA1_OVERCLOCK_INFO_0_PT_BR "Faça o overclock ou o downclock do chip do 'Super Accelerator 1' (SA-1). A definição deste valor acima de 100% pode melhorar o desempenho em jogos que suportam o chip SA-1. Use com cautela, pois pode também causar o travamento de alguns jogos ou apresentar outros problemas."
+#define BSNES_CPU_SA1_OVERCLOCK_INFO_0_PT_BR "Aumenta ou diminui a velocidade do chip Super Accelerator 1 (SA-1). Definir o valor para acima de 100% pode melhorar o desempenho de jogos com suporte ao chip SA-1. Use com cautela, pois pode causar o travamento em alguns jogos ou apresentar outros problemas."
 #define BSNES_CPU_SFX_OVERCLOCK_LABEL_PT_BR "Overclock (coprocessador SuperFX)"
 #define BSNES_CPU_SFX_OVERCLOCK_LABEL_CAT_PT_BR "Coprocessador Super FX"
-#define BSNES_CPU_SFX_OVERCLOCK_INFO_0_PT_BR "Faça o overclock ou o downclock do coprocessador SuperFX. A definição deste valor acima de 100% pode melhorar o desempenho em jogos que suportam o SuperFX. Use com cautela, pois pode também causar o travamento de alguns jogos ou apresentar outros problemas."
+#define BSNES_CPU_SFX_OVERCLOCK_INFO_0_PT_BR "Aumenta ou diminui a velocidade do coprocessador SuperFX. Definir o valor para acima de 100% pode melhorar o desempenho de jogos com suporte ao SuperFX. Use com cautela, pois pode causar o travamento em alguns jogos ou apresentar outros problemas."
 #define OPTION_VAL_410_PT_BR NULL
 #define OPTION_VAL_420_PT_BR NULL
 #define OPTION_VAL_430_PT_BR NULL
